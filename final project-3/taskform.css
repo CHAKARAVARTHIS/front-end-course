@@ -1,0 +1,54 @@
+body{
+    background-color: #8F0222;
+    height: 100px;
+    width: 100px;
+    
+}
+
+.field{
+    background-color: white;
+    width:400px;
+    height: 50vh;
+    padding:30px;
+    margin:30px;
+}
+h1{
+    color:white;
+    margin-top: 200px;
+}
+h2{
+    color:white;
+    margin-top: 294px;
+    margin-left:-182px;
+}
+.label{
+    margin-bottom:5px;
+    font-size: 20px;
+    
+}
+.btn{
+    background-color: #F0DE8C;
+    width:80px;
+    padding:5px;
+    align-self: self-end;
+}
+.contactform{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+input{
+    width:370px;
+    border: 2px solid #8F0222;
+    height: 44px;
+   
+}
+.whole{
+   display: flex;
+}
+.contactform label{
+     color: #8F0222;
+}
+input::placeholder{
+    color: #8F0222;
+}

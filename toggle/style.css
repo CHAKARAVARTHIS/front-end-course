@@ -1,0 +1,115 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.logo{
+ display: flex;
+ align-items: center;
+}
+header{
+    background-color: 	#505c7c;
+}
+span{
+    color: rgb(255, 187, 0);
+}
+img{
+    width: 80px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+li{
+    list-style: none;
+    color:rgb(255, 187, 0) ;
+    font-weight: 700;
+    font-size: 20px;
+    
+}
+ul li a{
+    color: rgb(255, 187, 0);
+    text-decoration: none;
+}
+li:hover{
+background-color: black;
+
+}
+ul{
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+}
+.supermenu{
+    color:rgb(255, 187, 0) ;
+}
+.supermenu ul li a{
+    text-decoration: none;
+    color:black;
+}
+
+.submenu li {
+     
+    background-color:rgb(255, 187, 0);
+    padding: 10px;
+    margin: 10px;
+    margin-top: 10px;
+    
+}
+.supermenu{
+    position: relative;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    color: white;
+    padding: 5px; 
+
+}
+.supermenu:hover .submenu{
+    display: block;
+    z-index: 1;
+}
+.menutoggle{
+            display: none;
+        }
+
+
+
+/*mobiel view*/
+@media only screen and (max-width: 480px) {
+    header{
+        flex-direction: column;
+    }
+    .logo{
+        flex-direction: column;
+    }
+    ul{
+        flex-direction: column;
+    }
+    .supermenu:hover .submenu{
+    display: block;
+   
+    }
+    .menutoggle{
+    display: block;
+    }
+    .menutoggle i{
+    font-size: 36px;
+    padding: 10px;
+    }
+    .menu{
+    background-color: bisque;
+    position: absolute;
+    top: 144px;
+    width: 100%;
+    left: -98%;
+    }
+    
+    .open{
+        left: 0;
+    }
+
+ 
+}
