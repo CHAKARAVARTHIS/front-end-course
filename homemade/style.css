@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Mozilla+Headline:wght@200..700&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:rgb(26 30 35);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background-color: rgba(255, 68, 0, 0.627);
+    
+}
+.logo{
+       height: 100px;
+       width: 150px;
+    }
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    padding: 10px;
+    gap:20px;
+}
+.menus ul li{
+    font-weight: 400;
+    font-size: 21px;
+}
+.donate{
+    background-color:orangered;
+    color: white;
+    border-radius: 10px;
+    font-size: 21px;
+    padding:10px;
+    border-color: transparent;
+}
+.donate:hover{
+    background-color: rgba(255, 68, 0, 0.825);
+    color: black;
+}
+.menus ul li:hover{
+    color:orangered;
+}
+.menus{
+    margin-right: 20px;
+}
+/* section 2 */
+.rightpart{
+  width: 1200px;
+    text-align: center;
+   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; 
+   padding: 10px;
+   background-color: rgba(0, 0, 0, 0.119);
+}
+.rightpart li:hover{
+    color: orangered;
+}
+.p1{
+    padding:10px;
+    font-size: 20px;
+}
+.tata{
+    height: 500px;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.147);
+}
+.leftpart{
+    margin-right: 20px;
+   
+}
+.third{
+    text-align: center;
+}
+.third h1{
+    font-size: 50px;
+}
+.third p{
+color: black;
+font-size: 35px;
+}
+hr{
+    border: 5px solid black;
+    width: 100vh;
+}
+span{
+    
+    color: orangered;
+}
+.container{
+display: grid;
+ grid-template-columns:repeat(2,1fr);
+ padding:20px;
+ gap:20px;
+ 
+}
+.boz{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+/*  */
+  /*  */
