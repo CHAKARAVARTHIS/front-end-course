@@ -24,11 +24,34 @@ font-weight: 700;
 .circle:hover{
   background-color:#136ffe;
 }
-
+/* section4 */
+.btn:hover{color:#136ffe !important;}
+/* section5 */
+.cir{
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  border: 1px solid #136ffe;
+}
+.bi{
+  font-size: 50px;
+}
+.total{
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.cir:hover{
+background-color: #136ffe !important;
+}
+.bi:hover{
+  color: aliceblue !important;
+}
  @media screen and (min-width:320px) and (max-width:480px){
   /* header */
  .menu{
   display: none;
  }
+.para p{
+  font-size: 20px !important;
 
+}
  }
