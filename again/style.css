@@ -1,0 +1,70 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Mozilla+Headline:wght@200..700&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+/* header */
+.menub{
+    width: 50px ;
+    height:50px ;
+    border:1px solid white;
+    border-radius: 50px;
+}
+/* hover */
+.menub:hover{
+    background-color: white;
+}
+/* section */
+/* hover */
+.get:hover{
+    background-color:#155bd5 !important;
+    color: white !important;
+}
+/* section-4 */
+.bi{
+  font-size: 50px;
+}
+.cir{
+    border:1px solid #155bd5;
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+}
+/* hover */
+.cir:hover{
+    background-color: #155bd5 !important;
+}
+/* video */
+.circl{
+    width: 75px;
+    height:75px;
+    border-radius: 75px;
+    background-color: #155bd5;
+}
+/* media query */
+@media screen and (min-width:320px) and (max-width:480px){
+    /* header */
+.menu{
+ display: none;
+}
+.menub{
+    border: none !important;
+}
+.watch{
+    font-size: 25px;
+}
+.play{
+    font-style: none;
+    font-size: 10px;
+}
+.circl{
+    width: 40px;
+    height:40px;
+    border-radius: 40px;
+    background-color: #155bd5;
+}
+}
